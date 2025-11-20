@@ -11,6 +11,6 @@ class cuadrado(figura_geometrica):
         return self.ancho * 4
 
     def __str__(self):
-        return f"Cuadrado(lado={self.ancho})"
+        return f" la dimencion del cuadrado es de {self.ancho}"
 
 
