@@ -5,22 +5,23 @@ class figura_geometrica():
 
     @property
     def ancho(self):
-        return self.ancho
+        return self._ancho
 
     @ancho.setter
     def ancho(self,valor):
         if valor <= 0 :
             raise ValueError('los valores a ingresar deben de ser mayores que 0')
-        self.ancho = valor
+        self._ancho = valor
 
     @property
     def alto(self):
-        return self.alto
+        return self._alto
+
     @alto.setter
     def alto(self,valor):
         if valor <= 0 :
             raise ValueError('los valores a ingresar deben de ser mayores que 0')
-        self.alto = valor
+        self._alto = valor
 
 
     def area(self):
